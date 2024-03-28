@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+/* fonts */
+.inconsolata {
+    font-family: 'Inconsolata', monospace; 
+}
+/* fonts */
+.alkatra {
+    font-family: 'Alkatra', cursive;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.copyright {
+  color: white;
+}
+
+.company-logo {
+  top: -8px;
+  position: relative;
+}
+
+.home-div {
+  /* top: -70px; */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.home-background {
+  display: block;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  filter: brightness(40%);
+  position: relative;
+  transition: 0.2s ease-in-out;
+  
+}
+
+.home-centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "alkatra";
+  font-size: 4.6vw;
+  /* color: black; */
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .home-centered-text {
+    font-size: 33px;
+  }
+}
+
+@font-face {
+  font-family: "SeoulHangangC";
+  font-weight: 800;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+.arrowButtonContainer {
+  margin: 0 auto;
+  padding: 10px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -100%);
+
+}
+
+.arrowButton {
+  color: white
+}

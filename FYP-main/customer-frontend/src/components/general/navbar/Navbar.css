@@ -1,0 +1,104 @@
+/* @import '@fontsource/roboto/300.css'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+/* fonts */
+.inconsolata {
+    font-family: 'Inconsolata', monospace; 
+}
+
+.alkatra {
+    font-family: 'Alkatra', cursive;
+}
+
+.roboto {
+    font-family: "Roboto";
+}
+
+
+.seoul-hangang {
+    font-family: 'SeoulHangangC';
+}
+
+@media screen and (max-width: 600px) {
+    .mobile-nav {
+        font-size: 15px !important;
+    }
+}
+
+@font-face {
+    font-family: 'SeoulHangangC';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* fonts end */
+
+.honeynight-logo {
+    width: 5%;
+    height: auto;
+    margin-left: 26px;
+}
+
+@media screen and (max-width: 600px) {
+    .honeynight-logo {
+        width: 5% !important;
+        height: auto;
+    }
+}
+
+.nav-title {
+    padding: 10px 0;
+}
+
+.menu-icon {
+    float: right;
+}
+
+.nav-links {
+    padding: 20px 0;
+}
+
+.roboto {
+    font-family: "Roboto";
+}
+
+.seoul-hangang {
+    font-family: 'SeoulHangangC';
+}
+
+.padding-navitem-order {
+    padding-left: 10px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.padding-navitem-reserve {
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/* .hover-effect-class {
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.hover-effect-class::before {
+    transition: all 0.6s ease;
+    transform: translate(-50%, -50%) rotate (-45deg);
+}
+
+.hover-effect-class:hover::before {
+    height: 380%;
+} */

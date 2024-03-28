@@ -1,0 +1,104 @@
+.center-text {
+    text-align: center;
+}
+
+.englishdescription {
+    /* font-size: x-large; */
+    font-size: 25px; /* 1px smaller than original size */
+    font-family: RobotoThin; /* thinner roboto font for design*/
+    /* font-size: 2.6vw; */
+    /* margin-right: 80px; */
+}
+
+.description {
+    /* font-size: x-large; */
+    font-size: 25px; /*1px smaller than original size */
+    margin-top: 30px; /* so that the text doesn't stay too close with the english description but still a smaller distance from title*/
+
+}
+
+.title {
+    font-size: 40px; /* this is to align the size with the size of Menu heading*/
+}
+
+.small-text {
+    font-size: 2vw;
+    color: rgb(255, 213, 0)
+}
+
+no-margin {
+    margin: 0px;
+}
+
+@media (max-width: 600px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+.aboutPic {
+    z-index: 5;  /* needs this to appear above the bg */
+    /* margin-top: 50px; */
+    width: 100%;
+    /* don't change this or else pic will break */
+    height: auto; 
+    margin-top: 30px;
+}
+
+.about-div {
+    /* top: -70px; */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* background-color: rgb(123, 123, 123); */
+}
+
+.about-background {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    opacity: 0.95;
+    position: relative;
+}
+
+.about-centered-grid {
+    /* position: absolute; */
+    top: 3%;
+    left: 1%;
+    /* transform: translate(-95%, -50%); */
+    /* transform: translate(-50%, -100%); */
+    font-family: 'SeoulHangangC';
+    /* font-style: normal; */
+    font-weight: 100;
+    font-size: 2.6vw;
+    color: rgb(252, 252, 252);
+}
+
+.doNotWrap {
+    white-space: nowrap;
+ }
+
+@font-face {
+    font-family: "SeoulHangangC";
+    font-weight: 800;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.eot?#iefix")
+        format("embedded-opentype"),
+      url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.woff2")
+        format("woff2"),
+      url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.woff")
+        format("woff"),
+      url("https://cdn.jsdelivr.net/gh/webfontworld/seoulhangang/SeoulHangangCExtraBold.ttf")
+        format("truetype");
+    font-display: swap;
+  }
+
+
+@font-face {
+    font-family: RobotoThin;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    font-style: normal;
+}

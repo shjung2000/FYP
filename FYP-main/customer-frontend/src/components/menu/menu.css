@@ -1,0 +1,23 @@
+.menuItemContainer {
+    padding: 10px;
+}
+
+.menuTitle {
+    text-align: center;
+    font-family: 'SeoulHangangC';
+    margin: 0 auto
+}
+
+#menu-div h1 {
+    text-align: center;
+    font-family: 'SeoulHangangC';
+    font-size: 40px;
+}
+
+.home-div {
+    background-color: black;
+}
+
+#menu-div {
+    margin: auto;
+}

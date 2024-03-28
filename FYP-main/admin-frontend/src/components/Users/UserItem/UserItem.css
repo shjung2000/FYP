@@ -1,0 +1,14 @@
+/* Replaced this with .deleteTableCell cuz it affects the table layout stuff */
+/* td {
+    overflow: scroll
+} */
+
+.deleteBtn svg{
+    color: #ca0000;
+}
+
+.deleteTableCell {
+    width: fit-content;
+    overflow-x: scroll !important;
+    overflow-y: hidden;
+}

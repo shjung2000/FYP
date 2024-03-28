@@ -1,0 +1,74 @@
+td,
+th {
+    color: black;
+    border: 1px black solid;
+}
+
+td {
+    height: 25px;
+    /* border: none; */
+    /* background:blue; */
+}
+
+table {
+    /* width: 50%; */
+    /* border: 1px black solid; */
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* transform: rotate(45deg); */
+
+}
+
+.topTableArea div {
+    z-index: -999;
+}
+
+#middlePart {
+    /* z-index: 2; */
+}
+
+#topPart {
+    width: 25%;
+    transform: translate(35px, 50%) rotate(15deg);
+}
+
+#bottomPart {
+    width: 50%;
+    transform: translate(10px, 55%);
+}
+
+.emptySpace {
+    border: none;
+}
+
+#bottomBox table tr {
+    height: 45px
+}
+
+.measureRow {
+    height: 10px;
+}
+
+.measureRow td {
+    height: 10px;
+    border: none;
+}
+
+.bottomTopBorder td {
+    height: 1px;
+    border: none;
+}
+
+.custTable {
+    border: none;
+    background: rgb(188, 125, 7);
+    color: white;
+}
+
+.custTable.taken {
+    background: grey
+}
+
+hr {
+    border: 1px black solid;
+}

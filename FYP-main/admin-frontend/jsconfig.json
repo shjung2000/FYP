@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src"
+    },
+    "include": ["src", "../customer-frontend/src/pages/reservationpage/cancelreservation", "../customer-frontend/src/pages/reservationpage/viewreservation", "../customer-frontend/src/components/reservation/IndivdualReservation.js"]
+}
+

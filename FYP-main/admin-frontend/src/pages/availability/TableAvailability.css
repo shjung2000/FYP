@@ -1,0 +1,56 @@
+.rectangle4 {
+    width: '200px';
+    height: '100px';
+    background-color: 'red';
+    transform: rotate(45);
+    transform-origin: 'center';
+}
+
+td {
+    color: black;
+}
+
+
+table,
+td {
+    border: 1px black solid;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border-top: none;
+}
+
+.emptySpace {
+    border: none;
+    text-align: center;
+}
+
+.emptySpace hr {
+    height: 3px;
+    border: none;
+    background: black;
+}
+
+.measurementRow td,
+.emptySpace td {
+    border: none;
+}
+
+table tr td {
+    text-align: center;
+}
+
+.table {
+    color: white;
+    border: none;
+    background: #cf7d01;
+}
+
+.table.taken {
+    background: rgb(71, 70, 70);
+
+}

@@ -1,0 +1,20 @@
+.menuItemContainer {
+    margin: 0 auto;
+    background-color: #2f3133;
+    aspect-ratio: 1
+}
+
+.menuItemImage {
+    max-width: 100%;
+    /* width: 100%; */
+    /* max-height:100px; */
+    border-radius: 5px;
+}
+
+.menuItemDescription {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: white;
+}

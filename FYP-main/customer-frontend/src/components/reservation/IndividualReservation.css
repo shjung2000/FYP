@@ -1,0 +1,19 @@
+td {
+    width: 50%;
+    color: white;
+}
+
+table {
+    /* background: black; */
+    color: white;
+}
+
+.actionBtn,
+.deleteBtn {
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.actionBtn {
+    background: orange
+}

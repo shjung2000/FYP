@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+    div.rec-slider-container {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    div.rec-slider-container {
+        width: 80vw
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    div.rec-slider-container {
+        width: 60vw;
+    }
+}
+
+div.rec-carousel-wrapper {
+    margin: 0;
+}
+
+div.rec-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+button.rec-dot {
+    box-shadow: 0 0 1px 3px rgba(223, 149, 11, 0.5);
+}
+
+button.rec-dot_active {
+    box-shadow: 0 0 1px 3px rgba(223, 149, 11, 0.5);
+    background-color: orange;
+}
+
+.rec.rec-arrow {
+    background: rgb(119, 78, 2);
+    color: white
+}
+
+.rec.rec-arrow:hover:enabled,
+.rec.rec-arrow:focus:enabled {
+    background: orange;
+    color: black
+}

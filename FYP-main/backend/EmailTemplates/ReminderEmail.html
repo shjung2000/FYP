@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            #cancelButton {
+                background: rgb(138, 91, 2);
+                border: 0;
+                border-radius: 5px;
+                margin: 10px auto;
+                padding: 10px;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body style="background-color: black; color: white">
+        <div style="padding: 20px; margin: 20px">
+            <div style="padding: 5px">
+                <h2 style="color: orange">Honey Night</h2>
+            </div>
+            <hr />
+            <div style="color: white">
+                <p style="color: white">Dear {{name}},</p>
+                <p style="color: white">
+                    Please be reminded of your reservation tomorrow. Your reservation
+                    details are as follows:
+                </p>
+                <table
+                    border="1"
+                    style="
+                        width: 100%;
+                        border: 1px solid white;
+                        border-collapse: collapse;
+                    "
+                >
+                    <tbody>
+                        <tr>
+                            <th
+                                style="
+                                    border: 1px solid white;
+                                    border-collapse: collapse;
+                                    padding: 5px;
+                                    text-align: right;
+                                "
+                            >
+                                Reference:
+                            </th>
+                            <td
+                                style="
+                                    border: 1px solid white;
+                                    border-collapse: collapse;
+                                    padding: 5px;
+                                    text-align: left;
+                                "
+                            >
+                                {{reservation_id}}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th
+                                style="
+                                    border: 1px solid white;
+                                    border-collapse: collapse;
+                                    padding: 5px;
+                                    text-align: right;
+                                "
+                            >
+                                Reservation Date and Time:
+                            </th>
+                            <td
+                                style="
+                                    border: 1px solid white;
+                                    border-collapse: collapse;
+                                    padding: 5px;
+                                    text-align: left;
+                                "
+                            >
+                                {{date_of_visit}} {{new_timing}}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th
+                                style="
+                                    border: 1px solid white;
+                                    border-collapse: collapse;
+                                    padding: 5px;
+                                    text-align: right;
+                                "
+                            >
+                                Number of Pax:
+                            </th>
+                            <td
+                                style="
+                                    border: 1px solid white;
+                                    border-collapse: collapse;
+                                    padding: 5px;
+                                    text-align: left;
+                                "
+                            >
+                                {{pax}}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th
+                                style="
+                                    border: 1px solid white;
+                                    border-collapse: collapse;
+                                    padding: 5px;
+                                    text-align: right;
+                                "
+                            >
+                                Phone Number:
+                            </th>
+                            <td
+                                style="
+                                    border: 1px solid white;
+                                    border-collapse: collapse;
+                                    padding: 5px;
+                                    text-align: left;
+                                "
+                            >
+                                {{phone}}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="color: white">
+                    You can also view the current reservation
+                    <a
+                        href="{{viewReservationLink}}"
+                        target="_blank"
+                        style="color: white; font-weight: bold"
+                        >here</a
+                    >.
+                </p>
+                <p style="color: white">
+                    In the unlikely event if you are unable to turn up for this
+                    timeslot, click the cancel button below.
+                </p>
+                <a href="{{cancellationLink}}" target="_blank">
+                    <button
+                        style="
+                            background: rgb(138, 91, 2);
+                            border: 0;
+                            border-radius: 5px;
+                            margin: 10px auto;
+                            padding: 10px;
+                            color: white;
+                        "
+                    >
+                        Cancel
+                    </button>
+                </a>
+                <br />
+                <p style="color: white">We look forward to seeing you!</p>
+                <br />
+                <p style="color: white">Regards,</p>
+                <p style="color: white">&nbsp;&nbsp; -Honey Night</p>
+                <br />
+                <img src="cid:honeyNightLogo" />
+            </div>
+        </div>
+    </body>
+</html>

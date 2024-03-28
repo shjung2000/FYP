@@ -1,0 +1,43 @@
+.popupContainer {
+    position: fixed;
+    bottom: 30vh;
+    right: -150px;
+    padding: 20px;
+    background: rgb(141, 95, 8);
+    color: white;
+    margin: 10px auto;
+    border-radius: 5px 0px 0px 5px;
+    opacity: 0.7;
+    transition: 0.3s;
+    width: 200px;
+    height: 150px;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    text-align: center;
+    font-size: 25px;
+}
+
+.popupContainer:hover {
+    cursor: pointer;
+    right: 0px;
+    writing-mode: horizontal-tb;
+    text-orientation: sideways;
+    opacity: 1;
+        /* width:250px; */
+}
+
+.iconContainer {
+    width: 100%;
+}
+
+.iconContainer svg {
+    width: 60px;
+    height: 60px;
+}
+
+
+@media (max-width: 599px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
